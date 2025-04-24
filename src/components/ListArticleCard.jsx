@@ -24,11 +24,11 @@ export default function ListArticleCard({ article, color }) {
         rel="noopener noreferrer" 
         className="block bg-white rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-300 group flex md:flex-row-reverse border border-gray-100"
       >
-        <div className="md:w-1/3 h-full relative overflow-hidden">
+        <div className="md:w-1/3 relative overflow-hidden h-full">
           <img 
             src={article.image} 
             alt={article.title} 
-            className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-fill object-center transform transition-transform duration-500 group-hover:scale-105"
           />
         </div>
   

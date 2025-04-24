@@ -6,6 +6,12 @@ import image5 from '../assets/melihat-kilau-emas-yang-harganya-jatuh-dari-level-
 import image6 from '../assets/menteri-investasi-dan-hilirisasikepala-bkpm-rosan-perkasa-roeslani-1745408457177_169.jpeg';
 import image7 from '../assets/kenapa-trump-mengincar-china-dalam-perang-dagang-dan-apa-yang-akan-terjadi-sesudahnya-1744532911557_169.jpeg';
 import image8 from '../assets/ketua-umum-komite-olimpiade-indonesia-raja-sapta-oktohari_169.jpeg';
+import image9 from '../assets/jonatan-christie-1744807558942_169.jpeg';
+import image10 from '../assets/2207395667-1744108436260.jpeg';
+import image11 from '../assets/cantiknya-bunga-bunga-bermekaran-dekat-menara-eiffel-1744086686033_169.jpeg';  
+import image12 from '../assets/makanan-dengan-nama-akronim-kocak-1745298999169.jpeg';
+import image13 from '../assets/ilustrasi-teh-hijau_169.jpeg';
+import image14 from '../assets/cinta-laura-1745302203755_43.jpeg';
 
 export default {
   news: [
@@ -70,52 +76,56 @@ export default {
       description: "Komite Olimpiade Indonesia (KOI) menggelar Rapat Anggota Tahunan 2025. Mengusung semangat Together for Excellence, KOI menargetkan prestasi Olimpiade 2028 Los Angeles.",
     },
     {
-      title: "Tennis Star Advances to Semi-finals",
-      category: "Tennis",
-      image: "/api/placeholder/400/300",
+      url: "https://sport.detik.com/raket/d-7880281/taufik-hidayat-jonatan-kapten-tim-indonesia-di-piala-sudirman-2025",
+      title: "Taufik Hidayat: Jonatan Kapten Tim Indonesia di Piala Sudirman 2025",
+      category: "Raket",
+      image: image9,
       date: "April 22, 2025",
-      description: "Victory in quarter-finals sets up clash with top-ranked opponent.",
+      description: "Indonesia menunjuk Jonatan Christie sebagai kapten tim Piala Sudirman 2025. Jojo, sapaannya, dinilai punya jiwa kepemimpinan.",
     },
     {
-      title: "Basketball League Announces Schedule Changes",
-      category: "Basketball",
-      image: "/api/placeholder/400/300",
+      url: "https://sport.detik.com/moto-gp/d-7875092/kapan-jorge-martin-bisa-balapan-lagi",
+      title: "Kapan Jorge Martin Bisa Balapan Lagi?",
+      category: "MotoGP",
+      image: image10,
       date: "April 21, 2025",
-      description: "Season extended by two weeks following weather-related postponements.",
+      description: "Jorge Martin alami kecelakaan parah di MotoGP Qatar 2025. 11 Tulang rusuknya patah, tapi kini kondisinya membaik. Aprilia enggan buru-buru!",
     },
   ],
   lifestyle: [
     {
-      url: "https://lifestyle.detik.com",
-      title: "New Wellness Trend Gaining Popularity",
-      category: "Health",
-      image: "/api/placeholder/400/300",
+      url: "https://travel.detik.com/travel-news/d-7881628/menara-eiffel-padam-dunia-berkabung-atas-wafatnya-paus-fransiskus",
+      title: "Menara Eiffel Padam, Dunia Berkabung atas Wafatnya Paus Fransiskus",
+      category: "Travel",
+      image: image11,
       date: "April 23, 2025",
-      description: "Experts explain benefits of this emerging approach to personal wellbeing.",
+      description: "Wafatnya Paus Fransiskus pada Senin (21/4/2025) mengguncang dunia. Menara Eiffel turut berduka, lampu dipadamkan.",
     },
     {
-      title: "Fashion Week Highlights Sustainable Materials",
-      category: "Fashion",
-      image: "/api/placeholder/400/300",
-      date: "April 22, 2025",
-      description: "Designers showcase innovative eco-friendly collections on the runway.",
+      url: "https://food.detik.com/info-kuliner/d-7880522/7-makanan-tradisional-yang-namanya-berasal-dari-akronim-kocak",
+      title: "7 Makanan Tradisional yang Namanya Berasal dari Akronim Kocak",
+      category: "Food",
+      image: image12,
+      date: "April 23, 2025",
+      description: "Kebiasaan orang Indonesia menyingkat kalimat diterapkan pada makanan. Ada beberapa kudapan yang namanya berasal dari akronim kocak.",
     },
     {
-      title: "Home Décor Ideas for Small Spaces",
-      category: "Interior",
-      image: "/api/placeholder/400/300",
-      date: "April 21, 2025",
-      description: "Interior designers share tips for maximizing limited living areas.",
+      url: "https://health.detik.com/berita-detikhealth/d-7882550/5-minuman-ajaib-yang-bantu-cegah-risiko-stroke-termasuk-teh-hijau",
+      title: "5 Minuman 'Ajaib' yang Bantu Cegah Risiko Stroke, Termasuk Teh Hijau",
+      category: "Health",
+      image: image13,
+      date: "April 24, 2025",
+      description: "Stroke merupakan salah satu masalah kesehatan yang dapat menurunkan kualitas hidup seseorang. Risiko terkena stroke bisa diturunkan dengan bantuan pola hidup sehat, termasuk mengonsumsi minuman tertentu.",
     },
   ],
   celebrity: [
     {
-      url: "https://celebrity.detik.com",
-      title: "Film Star Announces New Project",
-      category: "Movies",
-      image: "/api/placeholder/400/300",
+      url: "https://hot.detik.com/celeb/d-7880586/cerita-cinta-laura-renovasi-10-sd-dan-1-smp-di-bogor",
+      title: "Cerita Cinta Laura Renovasi 10 SD dan 1 SMP di Bogor",
+      category: "Celeb",
+      image: image14,
       date: "April 23, 2025",
-      description: "Award-winning actor to collaborate with acclaimed director.",
+      description: "Cinta Laura dikenal punya pemikiran kritis di ranah pendidikan. Sejak 2006, bersama Yayasan Soekarseno Foundation yang didirikan bersama keluarga besar dari pihak ibunya, mereka aktif menggalang dana buat membangun hingga merenovasi sekolah-sekolah.",
     },
     {
       title: "Music Award Winners Revealed",
