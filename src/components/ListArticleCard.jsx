@@ -28,7 +28,7 @@ export default function ListArticleCard({ article, color }) {
           <img 
             src={article.image} 
             alt={article.title} 
-            className="w-full h-full object-fill object-center transform transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-cover object-center transform transition-transform duration-500 group-hover:scale-105"
           />
         </div>
   
